@@ -27,3 +27,13 @@ html {
     gap: 10px;
     justify-content: center;
 }
+.navigation button {
+    border: none;
+    background-color: transparent;
+    padding: 0 13px;
+    font-size: 18px;
+    color: #FF0070;
+    font-family: 'IBM Plex Mono';
+    
+}
+
