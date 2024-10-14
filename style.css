@@ -236,3 +236,35 @@ a{
     text-decoration: none;
     color: #F1B2CE;
 }
+
+a:hover{
+    color: #F1B2CE;
+    background-color: #2196f3;
+}
+
+.section1 .dofamine{
+    position: absolute;
+    width: 648.92px;
+    height: 23px;
+    left: 355.08px;
+    top: 264px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    background-color: #FF0070;
+    color: #000028;
+}
+
+.section1 .onetap{
+    position: absolute;
+    width: 648.92px;
+    height: 211px;
+    left: 355.08px;
+    top: 297px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F1B2CE;
+}
