@@ -178,8 +178,6 @@ h1{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    
-    
     position: absolute;
     width: 1024px;
     height: 508px;
@@ -194,10 +192,47 @@ h1{
     height: 47px;
     left: 20px;
     top: 0px;
-
     font-family: 'IBM Plex Mono';
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
     color: #FF0070;
+}
+
+.section1 .mnogozadach{
+    position: absolute;
+    width: 648.92px;
+    height: 23px;
+    right: 20.19px;
+    top: 0px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    background-color: #FF0070;
+    color: #000028;
+}
+
+.section1 .qwerty{
+    position: absolute;
+    width: 648.92px;
+    height: 211px;
+    right: 20.19px;
+    top: 33px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F1B2CE;
+}
+
+a{
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-shadow: 2px 2px  #FF0070;
+    color: #F1B2CE;
+    text-decoration: none;
+    color: #F1B2CE;
 }
