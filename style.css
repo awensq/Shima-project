@@ -37,14 +37,13 @@ body{
 }
 
 .navigation {
-    display: flex;
-    position: relative;
-    justify-content: center;
+    position: absolute;
     top: 20px;
     left: 397px;
     width: 230px;
     height: 26px;
     list-style-type: none;
+    padding: 0 13px;
 }
 
 .navigation button{
@@ -56,13 +55,12 @@ body{
     color: #FF0070;
     line-height: 18px;
     text-align: center;
-    size: 18px;
+    font-size: 18px;
     font-weight: 400;
     background-color: rgba(28,28,28,0);
     border: none;
     outline: none;
     cursor: pointer;
-
 }
 
 button:active {
@@ -280,7 +278,7 @@ a:hover{
     margin: 0;
 }
 
-.textsect{
+.textsect2{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -300,18 +298,17 @@ a:hover{
     height: 23px;
     left: 0;
     top: 0;
-    background-color: #FF0070;
-    color: #000028;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
     font-style: normal;
+    background-color: #FF0070;
+    color: #000028;
     font-size: 18px;
     line-height: 23.4px;
     margin: 0;
 }
 
 .blum{
-    
     position: absolute;
     width: 315px;
     height: 351px;
@@ -332,11 +329,11 @@ a:hover{
     height: 23px;
     left: 335px;
     top: 0;
-    background-color: #FF0070;
-    color: #000028;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
     font-style: normal;
+    background-color: #FF0070;
+    color: #000028;
     font-size: 18px;
     line-height: 23.4px;
     margin: 0;
@@ -363,11 +360,11 @@ a:hover{
     height: 23px;
     left: 670px;
     top: 0;
-    background-color: #FF0070;
-    color: #000028;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
     font-style: normal;
+    background-color: #FF0070;
+    color: #000028;
     font-size: 18px;
     line-height: 23.4px;
     margin: 0;
@@ -387,3 +384,222 @@ a:hover{
     color: #F1B2CE;
     margin: 0;
 }
+
+.section3 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    
+    position: absolute;
+    width: 1024px;
+    height: 1015px;
+    left: 0;
+    top: 1994px;
+    }
+    
+    .koncetracia{
+        position: absolute;
+        width: 315px;
+        height: 98px;
+        left: 20px;
+        top: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: 700;
+        font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FF0070;
+    margin: 0;
+}
+
+.textsect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    gap: 20px;
+    
+    position: absolute;
+    width: 649px;
+    height: 1015px;
+    right: 20px;
+    left: 355px;
+    top: 0;
+}
+
+    .zagolovok2 {
+        width: 649px;
+        height: 23px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: bold;
+        font-style: normal;
+        background-color: #FF0070;
+        color: #000028;
+        font-size: 18px;
+        line-height: 23.4px;
+        margin: 0;
+    }
+    
+    
+    
+    .sovet1{
+        position: absolute;
+        width: 649px;
+        height: 23px;
+        left: 0;
+        top: 43px;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000028;
+        background-color: #FF0070;
+        margin: 0;
+    
+    }
+    
+    .sut1 {
+        position: absolute;
+        width: 647.55px;
+        height: 211px;
+        left: 0;
+        top: 76px;
+        font-family: 'IBM Plex Mono';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23.4px;
+        color: #F1B2CE;
+        margin: 0;
+    }
+    
+    .sovet2{
+        position: absolute;
+        width: 649px;
+        height: 23px;
+        left: 0;
+        top: 307px;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000028;
+        background-color: #FF0070;
+        margin: 0;
+    }
+    .sut2{
+        position: absolute;
+        width: 649px;
+        height: 117px;
+        left: 0;
+        top: 340px;
+        font-family: 'IBM Plex Mono';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23.4px;
+        color: #F1B2CE;
+        margin: 0;
+    }
+    
+    .sovet3{
+        position: absolute;
+        width: 649px;
+        height: 23px;
+        top: 477px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000028;
+        background-color: #FF0070;
+        margin: 0;
+    }
+    
+    .sut3{
+        position: absolute;
+        width: 649px;
+        height: 164px;
+        top: 510px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23.4px;
+        color: #F1B2CE;
+        margin: 0;
+    }
+    
+    .sovet4{
+        position: absolute;
+        width: 649px;
+        height: 23px;
+        top: 694px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000028;
+        background-color: #FF0070;
+        margin: 0;
+
+    }
+    
+    .sut4{
+        position: absolute;
+        width: 649px;
+        height: 118px;
+        top: 727px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23.4px;
+        color: #F1B2CE;
+        margin: 0;
+    }
+    
+    .sovet5{
+        position: absolute;
+        width: 649px;
+        height: 23px;
+        top: 865px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000028;
+        background-color: #FF0070;
+        margin: 0;
+    }
+    
+    .sut5{
+        position: absolute;
+        width: 649px;
+        height: 117px;
+        top: 898px;
+        left: 0;
+        font-family: 'IBM Plex Mono';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23.4px;
+        color: #F1B2CE;
+        margin: 0;
+    }
+    
